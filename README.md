@@ -151,5 +151,5 @@ Se quiser um site profissional para o seu negócio:
 
 📩 Entre em contato:
 
-* WhatsApp: (coloca aqui depois)
-* Email: (opcional)
+* WhatsApp: (44 991188029)
+* Email: (felipesalviano00@hotmail.com)
