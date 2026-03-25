@@ -1,10 +1,16 @@
 export const company = {
   name: "Bonvechio Madeiras Tratadas",
   shortName: "Bonvechio Madeiras",
-  phone: "(44) 3435-1474",
   email: "madeiras_bonvechio@hotmail.com",
   city: "Planaltina do Paraná - PR",
-  whatsapp: "554434351474",
+   phones: [
+    "(44) 3435-1474",
+    "(44) 3435-1172",
+  ],
+  whatsappDisplay: "(44) 99134-1798",
+  whatsapp: "5544991341798",
+  address: "Av. Paraná, 101 - Planaltina do Paraná, PR, 87860-000",
+  businessHours: "Atendimento de segunda a sábado, das 08:00 às 18:00.",
   description:
     "Empresa especializada no fornecimento de madeiras tratadas de alta qualidade, com destaque para dormentes utilizados em ferrovias.",
   about: [

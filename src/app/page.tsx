@@ -5,7 +5,8 @@ import AboutPreview from "@/components/sections/AboutPreview";
 import ServicesPreview from "@/components/sections/ServicesPreview";
 import PortfolioPreview from "@/components/sections/PortfolioPreview";
 import CTASection from "@/components/sections/CTASection";
-import ContactSection from "@/components/sections/ContactSection";
+import FAQSection from "@/components/sections/FAQSection";
+import BusinessInfoSection from "@/components/sections/BusinessInfoSection";
 
 export default function HomePage() {
   return (
@@ -16,8 +17,9 @@ export default function HomePage() {
         <AboutPreview />
         <ServicesPreview />
         <PortfolioPreview />
+        <BusinessInfoSection />
         <CTASection />
-        <ContactSection />
+        <FAQSection />
       </main>
       <Footer />
     </>

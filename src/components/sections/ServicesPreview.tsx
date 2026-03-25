@@ -1,6 +1,7 @@
+import Link from "next/link";
 import Container from "../ui/Container";
 import SectionTitle from "../ui/SectionTitle";
-import Link from "next/link";
+import Reveal from "../ui/Reveal";
 import { products } from "@/data/products";
 
 export default function ServicesPreview() {
@@ -9,42 +10,45 @@ export default function ServicesPreview() {
   return (
     <section className="bg-[var(--brand-beige)] py-20">
       <Container>
-        <SectionTitle
-          eyebrow="Produtos e soluções"
-          title="Linha de produtos Bonvechio"
-          description="Produtos para aplicações ferroviárias, estruturais e rurais, com foco em resistência, tratamento e desempenho."
-          center
-        />
+        <Reveal>
+          <SectionTitle
+            eyebrow="Produtos e soluções"
+            title="Linha de produtos Bonvechio"
+            description="Produtos para aplicações ferroviárias, estruturais e rurais, com foco em resistência, tratamento e desempenho."
+            center
+          />
+        </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-          {featured.map((product) => (
-            <div
-              key={product.title}
-              className="rounded-3xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-            >
-              <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--brand-green)]">
-                {product.category}
-              </p>
+          {featured.map((product, index) => (
+            <Reveal key={product.title} delay={index * 0.08}>
+              <div className="rounded-3xl bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+                <p className="text-sm font-semibold uppercase tracking-[0.15em] text-[var(--brand-green)]">
+                  {product.category}
+                </p>
 
-              <h3 className="mt-3 text-xl font-semibold text-[var(--brand-brown-dark)]">
-                {product.title}
-              </h3>
+                <h3 className="mt-3 text-xl font-semibold text-[var(--brand-brown-dark)]">
+                  {product.title}
+                </h3>
 
-              <p className="mt-4 text-sm leading-7 text-[var(--foreground)]/80">
-                {product.description}
-              </p>
-            </div>
+                <p className="mt-4 text-sm leading-7 text-[var(--foreground)]/80">
+                  {product.description}
+                </p>
+              </div>
+            </Reveal>
           ))}
         </div>
 
-        <div className="mt-10 text-center">
-          <Link
-            href="/servicos"
-            className="inline-flex rounded-full bg-[var(--brand-green)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--brand-brown-dark)]"
-          >
-            Ver linha completa de produtos
-          </Link>
-        </div>
+        <Reveal delay={0.18}>
+          <div className="mt-10 text-center">
+            <Link
+              href="/servicos"
+              className="inline-flex rounded-full bg-[var(--brand-green)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--brand-brown-dark)]"
+            >
+              Ver linha completa de produtos
+            </Link>
+          </div>
+        </Reveal>
       </Container>
     </section>
   );
