@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌲 Bonvechio Madeiras Tratadas
 
-## Getting Started
+Landing page institucional desenvolvida para a empresa **Bonvechio Madeiras Tratadas**, com foco em apresentação profissional, geração de leads e conversão de clientes.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Sobre o projeto
+
+Este projeto foi desenvolvido com o objetivo de criar uma presença digital moderna, clara e confiável para a empresa, destacando:
+
+* Produtos e aplicações em madeira tratada
+* Portfólio real de projetos
+* Informações institucionais
+* Canal direto de contato (WhatsApp)
+
+A interface foi construída com foco em:
+
+* Experiência do usuário (UX)
+* Performance
+* Design limpo e profissional
+* Conversão (call-to-action estratégico)
+
+---
+
+## 🧠 Stack utilizada
+
+* ⚡ **Next.js 14 (App Router)**
+* 🎨 **Tailwind CSS**
+* 🧩 **TypeScript**
+* 🎞️ **Framer Motion (animações)**
+* 🧱 **Componentização reutilizável**
+* 📱 **Responsivo (Mobile First)**
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+src/
+├── app/
+│   ├── page.tsx
+│   ├── sobre/
+│   ├── servicos/
+│   ├── portfolio/
+│   └── layout.tsx
+│
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   ├── ui/
+│   └── ...
+│
+├── data/
+│   ├── products.ts
+│   ├── gallery.ts
+│   └── company.ts
+│
+├── styles/
+│   └── globals.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* ✅ Página institucional completa (Sobre, Produtos, Portfólio)
+* ✅ Filtro por categorias na página de produtos
+* ✅ Cards interativos com detalhes expansíveis
+* ✅ Animações suaves ao scroll
+* ✅ Modal de galeria no portfólio
+* ✅ Botão "Voltar ao topo"
+* ✅ CTA direto para WhatsApp
+* ✅ Layout moderno e responsivo
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Foco do projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esse projeto não é só um site, é uma **ferramenta de vendas**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tudo foi pensado para:
 
-## Deploy on Vercel
+* Prender atenção
+* Passar confiança
+* Facilitar contato
+* Converter visitantes em clientes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📸 Preview
+
+> (adicionar aqui prints depois)
+
+```
+/public/preview-1.png
+/public/preview-2.png
+```
+
+---
+
+## ⚙️ Como rodar o projeto
+
+```bash
+# Clonar repositório
+git clone https://github.com/fesalvian/bonvechio-madeiras-tratadas
+
+# Entrar na pasta
+cd bonvechio-madeiras-tratadas
+
+# Instalar dependências
+npm install
+
+# Rodar projeto
+npm run dev
+```
+
+---
+
+## 🌍 Deploy
+
+O projeto pode ser facilmente hospedado na:
+
+* Vercel (recomendado)
+* Netlify
+
+---
+
+## 📈 Melhorias futuras
+
+* [ ] SEO avançado (metadata dinâmica)
+* [ ] Integração com Google Analytics
+* [ ] CMS para gerenciamento de conteúdo
+* [ ] Otimização de imagens avançada
+* [ ] Versão multilíngue
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Felipe Salviano**
+
+* 💼 Desenvolvedor Web
+* 🚀 Focado em projetos SaaS e soluções digitais
+* 📍 Maringá - PR
+
+---
+
+## 📞 Contato
+
+Se quiser um site profissional para o seu negócio:
+
+📩 Entre em contato:
+
+* WhatsApp: (coloca aqui depois)
+* Email: (opcional)
