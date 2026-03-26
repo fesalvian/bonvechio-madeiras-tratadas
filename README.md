@@ -94,6 +94,7 @@ Tudo foi pensado para:
 ```
 /public/preview-1.png
 /public/preview-2.png
+/public/preview-3.png
 ```
 
 ---
