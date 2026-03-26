@@ -87,18 +87,6 @@ Tudo foi pensado para:
 
 ---
 
-## 📸 Preview
-
-> (adicionar aqui prints depois)
-
-```
-/public/preview-1.png
-/public/preview-2.png
-/public/preview-3.png
-```
-
----
-
 ## ⚙️ Como rodar o projeto
 
 ```bash
