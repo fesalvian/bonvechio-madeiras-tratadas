@@ -6,10 +6,7 @@ import BackToTop from "@/components/ui/BackToTop";
 export const metadata: Metadata = {
   title: "Bonvechio Madeiras Tratadas",
   description:
-    "Soluções em madeiras tratadas com qualidade, resistência e confiança para o seu projeto.",
-    icons: {
-    icon: "/favicon.ico",
-  },
+    "Soluções em madeiras tratadas com qualidade, resistência e confiança para o seu projeto."
 };
 
 export default function RootLayout({
